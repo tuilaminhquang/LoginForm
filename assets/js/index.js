@@ -1,6 +1,4 @@
 
-element.addEventListener("click", myFunction);
-
 function myFunction() {
     console.log('Click')
     let email = document.getElementById("email").value;

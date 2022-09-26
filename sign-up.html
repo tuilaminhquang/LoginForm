@@ -28,9 +28,21 @@
 
         </div>
         <div class="item flex-column">
-            <h2>Hello, Welcome Back!</h2>
-            <h3>Please fill in your information to get access</h3>
+            <h2>Recover password</h2>
+            <h3>Insert your email to recover your password.
+            </h3>
             <div class="login">
+                <div class="input fullname">
+                    <div>
+                        <label for="fullName">Full name</label><br>
+                        <input type="text" id="fullName" name="fullName">
+                        <i class="fa-regular fa-circle-xmark" id="clearFname"></i>
+
+                    </div>
+
+
+
+                </div>
                 <div class="input email">
                     <label for="email" id="label1">Email</label><br>
                     <input type="email" id="email" name="email">
@@ -38,32 +50,50 @@
                     <i class="fa-regular fa-circle-xmark" id="clearUsername"></i>
 
 
-
-
                 </div>
-                <div class="input">
-                    <label for="password" id="label2">Password</label><br>
-                    <input type="password" id="password" name="password">
-                    <i class="fa-regular fa-eye " id="viewPassword"></i>
-
-                </div>
-                <div class="remember flex j-between">
+                <div class="input password">
                     <div>
-                        <i class="fa-light fa-square"></i>
-                        <span>Remember me</span>
+                        <label for="password" id="label2">Password</label><br>
+                        <input type="password" id="password" name="password">
+                        <i class="fa-regular fa-eye viewPassword" id="viewPassword"></i>
 
                     </div>
-                    <b id="forgot">Forgot Password?</b>
+
 
 
                 </div>
-                <button id="btn-login">Login</button>
+                <div class="input password">
+                    <div>
+                        <label for="confirmPassword" id="label3">Confirm Password</label><br>
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+                        <i class="fa-regular fa-eye " id="viewConfirmPassword"></i>
+
+                    </div>
+
+
+
+                </div>
+
+                <div id="loader"></div>
+
+
+                <div class="remember flex j-between">
+                    <div>
+                        <input type="checkbox" id="agree" name="agree" value="Bike">
+                        <span>I agree with terms</span>
+
+                    </div>
+
+
+
+                </div>
+                <button id="btn-sign">Sign up</button>
 
 
             </div>
 
 
-            <p class="sign-up">Don't have an account? <b>Sign up</b></p>
+            <p class="recovery">You forgot password? <b>Recovery Password</b></p>
 
 
 
@@ -71,9 +101,10 @@
     </div>
     </div>
 
+
 </body>
 
-<script src="assets/js/index.js"></script>
+<script src="assets/js/sign-up.js"></script>
 
 
 

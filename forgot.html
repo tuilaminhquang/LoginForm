@@ -28,8 +28,9 @@
 
         </div>
         <div class="item flex-column">
-            <h2>Hello, Welcome Back!</h2>
-            <h3>Please fill in your information to get access</h3>
+            <h2>Recover password</h2>
+            <h3>Insert your email to recover your password.
+            </h3>
             <div class="login">
                 <div class="input email">
                     <label for="email" id="label1">Email</label><br>
@@ -38,26 +39,39 @@
                     <i class="fa-regular fa-circle-xmark" id="clearUsername"></i>
 
 
+                </div>
+                <div class="input password">
+                    <div>
+                        <label for="password" id="label2">Password</label><br>
+                        <input type="password" id="password" name="password">
+                        <i class="fa-regular fa-eye viewPassword" id="viewPassword"></i>
+
+                    </div>
+
 
 
                 </div>
-                <div class="input">
-                    <label for="password" id="label2">Password</label><br>
-                    <input type="password" id="password" name="password">
-                    <i class="fa-regular fa-eye " id="viewPassword"></i>
+                <div class="input password">
+                    <div>
+                        <label for="confirmPassword" id="label3">Confirm Password</label><br>
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+                        <i class="fa-regular fa-eye " id="viewPassword"></i>
+
+                    </div>
+
+
 
                 </div>
                 <div class="remember flex j-between">
                     <div>
-                        <i class="fa-light fa-square"></i>
-                        <span>Remember me</span>
+
 
                     </div>
-                    <b id="forgot">Forgot Password?</b>
+                    <b id="forgot">Cannot Accesss?</b>
 
 
                 </div>
-                <button id="btn-login">Login</button>
+                <button id="btn-forgot-main">Next</button>
 
 
             </div>
@@ -73,7 +87,7 @@
 
 </body>
 
-<script src="assets/js/index.js"></script>
+<script src="assets/js/forgot.js"></script>
 
 
 
